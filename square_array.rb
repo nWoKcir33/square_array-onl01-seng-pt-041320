@@ -1,6 +1,6 @@
 def square_array(numbers)
   numbers.each do |number|
-    puts number ** 2
+    self.map! {number number ** 2
   end
 end
 
